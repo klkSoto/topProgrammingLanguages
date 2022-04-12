@@ -2,17 +2,20 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
-.navbar{
-    margin-top: 50px;
+.logo{
     text-transform: uppercase;
-    box-sizing: border-box;
-    margin-bottom: 50px;
-    max-width: 980px;
-    margin-right: 500px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+a{
+    text-decoration: none;
 }
 footer{
   position: fixed;
@@ -26,4 +29,6 @@ footer{
 .content{
     max-width: 980px;
     margin: auto;
+    background-color: #f5f5f5;
+    padding: 1em;
 }
