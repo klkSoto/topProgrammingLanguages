@@ -3,8 +3,11 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fff;;
-    color: black;
+    color: gray;
     font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
 }
 .logo{
     text-transform: uppercase;
@@ -40,8 +43,16 @@ footer{
     box-sizing: border-box;
     border: #f7f7f7;
 }
+.content1{
+    max-width: 1300px;
+    margin: auto;
+    padding: 1em;
+    padding-top: 8=7em;
+    box-sizing: border-box;
+    border: #f7f7f7;
+}
 .btn-1{
-    background-color: lightskyblue;
+    background-color: #00c8ec;
 }
 .btn-1:hover{
     transition: 0.5s;
@@ -51,4 +62,31 @@ footer{
 }
 .btn-1::after{
     background-color: lightskyblue;
+}
+.button{
+    color: white;
+    background-color: #212529;
+    border-radius: 100%;
+}
+.button:hover{
+    text-transform: uppercase;
+    color: white;
+    border-radius: 50%;
+    background-color: #212548;
+}
+.button2{
+    color: white;
+    background-color: #04aa6d;
+    border-radius: 100%;
+}
+.button2:hover{
+    background-color: #059862;
+    text-transform: uppercase;
+    color: white;
+}
+.imgindex{
+    margin-top: 15px;
+    margin-left: 1700px;
+    position: absolute;
+    cursor: pointer;
 }
