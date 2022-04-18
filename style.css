@@ -8,6 +8,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     color: black;
+    font-weight: bolder;
 }
 .logo{
     text-transform: uppercase;
@@ -90,9 +91,20 @@ footer{
     left: 1400px;
     position: absolute;
     cursor: pointer;
+    display: block;
+}
+.imgindex:hover{
+    transform: scaleY(1.2);
+    transition: 0.5s;
 }
 @media only screen and (max-width: 600px) {
     .imgindex {
       left: 400px;
     }
   }
+.contentpython{
+    align-content: center;
+    background-color: #e7e9eb;
+    max-width: 400px;
+    height: 75px;
+}
