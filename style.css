@@ -54,7 +54,9 @@ footer{
     border: #f7f7f7;
 }
 .btn-1{
-    background-color: #00c8ec;
+    background-color: 
+    
+#3e99d4;
 }
 .btn-1:hover{
     transition: 0.5s;
@@ -100,6 +102,10 @@ footer{
 @media only screen and (max-width: 600px) {
     .imgindex {
       left: 400px;
+    }
+    iframe{
+        width: 460px;
+        height: 415px
     }
   }
 .contentpython{
