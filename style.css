@@ -27,13 +27,15 @@ a{
     max-width: fit-content;
 }
 footer{
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #292929;
+    float: bottom;
+    background-color: #212529;
     width:100%;
-    height:60px
+    height: 100px;
+    padding-left: 30%;
+    padding-top: 30px;
+    padding-right: 30%;
+    align-items: center;
+    
 
 }
 .content{
@@ -112,10 +114,18 @@ footer{
         width: 960px;
         height: 515px
     }
+    footer{
+        padding-left: 25%;
+
+    }
   }
 @media only screen and (max-width:601px) {
     .imgindex {
         left: 85%;
+    }
+    footer{
+        padding-left: 15%;
+        height: 150px;
     }
     iframe{
         width: 460px;
